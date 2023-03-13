@@ -3,7 +3,7 @@ My personal web development projects. Some of these projects follow closely with
 
 ## Screenshots
 **bistro/index.html**
-![Bistro index image](indexPic.png)
+![Bistro index image](bistro/indexPic.png)
 
 ## Project Goals/Reflection
 * Practice & retain the web development knowledge I learned in college while expanding and learning new skills
