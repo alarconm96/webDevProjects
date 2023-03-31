@@ -1,11 +1,11 @@
-html {
-    background-color: #f8e2cb
-}
 header {
     text-align: center;
 }
-td, th {
-    border: 1px solid black;
+td, th { 
+    border: 1px solid #CCC; 
+}
+table { 
+    border: 1px solid black; 
 }
 caption {
     font-weight: bold;
