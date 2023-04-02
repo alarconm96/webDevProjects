@@ -17,41 +17,48 @@
 <p>Our 12" wood-fired pizzas are available for delivery. Build your custom pizza and we'll deliver it within an hour.</p>
 
 
-Your Information
-<ul>
-  <li>Name:</li>
-  <li>Address:</li>
-  <li>Telephone Number:</li>
-  <li>Email:</li>
-  <li>Delivery instructions:</li>
-</ul>
-
-
-<h2>Design Your Dream Pizza:</h2>
-
-<p>Pizza specs<p>
-
-<p>Crust <em>(Choose one)</em>:</p>
-<ul>
-  <li>Classic white</li>
-  <li>Multigrain</li>
-  <li>Cheese-stuffed crust</li>
-  <li>Gluten-free</li>
-</ul>
-
-<p>Toppings <em>(Choose as many as you want)</em>:</p>
-<ul>
-  <li>Red sauce</li>
-  <li>White sauce</li>
-  <li>Mozzarella Cheese</li>
-  <li>Pepperoni</li>
-  <li>Mushrooms</li>
-  <li>Peppers</li>
-  <li>Anchovies</li>
-</ul>
-
-<p>Number</p>
-<p>How many pizzas:<p>
+<form action="http://www.blackgoosebistro.com/" method="POST">
+  Your Information
+  <ul>
+    <li>Name: <input type="text" name="customerName"></li>
+    <li>Address: <input type="text" name="customerAddress"></li>
+    <li>Telephone Number: <input type="tel" name="customerPhone"></li>
+    <li>Email: <input type="email" name="customerEmail"></li>
+    <li>Delivery instructions:</li>
+    <li><textarea name="instructions" rows="4" cols="60" maxlength="400" placeholder="Max 400 characters..."></textarea>
+    </li>
+  </ul>
+  
+  <h2>Design Your Dream Pizza:</h2>
+  
+  <p>Pizza specs<p>
+  
+  <p>Crust <em>(Choose one)</em>:</p>
+  <ul>
+    <li>Classic white</li>
+    <li>Multigrain</li>
+    <li>Cheese-stuffed crust</li>
+    <li>Gluten-free</li>
+  </ul>
+  
+  <p>Toppings <em>(Choose as many as you want)</em>:</p>
+  <ul>
+    <li>Red sauce</li>
+    <li>White sauce</li>
+    <li>Mozzarella Cheese</li>
+    <li>Pepperoni</li>
+    <li>Mushrooms</li>
+    <li>Peppers</li>
+    <li>Anchovies</li>
+  </ul>
+  
+  <p>Number</p>
+  <p>How many pizzas:<p>
+  <p>
+    <input type="submit" value="Bring me a pizza!">
+    <input type="reset">
+  </p>
+</form>
 
 </body>
 </html>
