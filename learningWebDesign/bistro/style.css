@@ -18,3 +18,12 @@ h2 {
 ol, ul { 
     list-style-type: none;
 }
+td, th { 
+    border: 1px solid #CCC; 
+}
+table { 
+    border: 1px solid black; 
+}
+caption {
+    font-weight: bold;
+}
