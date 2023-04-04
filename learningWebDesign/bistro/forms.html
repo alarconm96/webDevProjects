@@ -7,6 +7,23 @@
 </head>
 
 <body>
-    
+    <h1>Form Exercises</h1>
+
+    <!--TODO: add JS to handle action-->
+    <form action="" method="POST">
+        <ul>
+            <h2>Personal Info</h2>
+            <li><label for="form-fname">First Name:</label> <input type="text" name="firstName" id="form-fname"></li>
+            <li><label for="form-lname">Last Name:</label> <input type="text" name="lastName" id="form-lname"></li>
+            <li><label for="form-phone">Phone:</label> <input type="tel" name="phone" id="form-phone"></li>
+            <li><label for="form-email">Email:</label> <input type="text" name="email" id="form-email"></li>
+        </ul>
+        <ul>
+            <!--TODO: add a way to create a password and confirm it using JS-->
+            <h2>Create a Password</h2>
+            <li><label for="form-password">Password (4-12 characters):</label> <input type="password" name="password" minlength="4" maxlength="12" id="form-password"></li>
+            <li><label for="form-password2">Confirm Password:</label> <input type="password" name="password2" minlength="4" maxlength="12" id="form-password2"></li>
+        </ul>
+    </form>
 </body>
 </html>
