@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>JavaScript Exercises</title>
+</head>
+
+<body>
+    <script>
+        // make array of friends, then show friend in index 2
+        var friends = ["yamil", "caesar", "monica", "marco"]
+        alert(friends[2])
+
+        // compare my name to author's name
+        var name = "marco"
+
+        if(name == "Jennifer"){
+            alert("We have the same name!")
+        }else{
+            alert("We don't have the same name...")
+        }
+
+        // alert user depending on myVariable value above or below 5
+        var myVariable = 1
+        if (myVariable <= 5) {
+            alert("lower")
+        } else {
+            alert("upper")
+        }
+
+        // run through friends array and alert each name
+        for(var i = 0; i < friends.length; i++){
+            alert(friends[i])
+        }
+
+        // alert user that window will close, then cose
+        alert("Window will now close. Goodbye!")
+        close()
+    </script>
+</body>
+</html>
