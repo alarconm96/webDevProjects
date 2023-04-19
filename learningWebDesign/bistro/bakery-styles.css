@@ -125,7 +125,7 @@ h2 {
   text-transform: uppercase;
 }
 #award {
-  position: absolute;
+  position: fixed;
   top: 30px;
   left: 50px;
 }
