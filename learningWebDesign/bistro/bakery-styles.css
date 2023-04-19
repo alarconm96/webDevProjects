@@ -55,8 +55,19 @@ nav ul li {
   text-transform: uppercase;
   letter-spacing: .2em;
 }
+nav ul li a {
+  display: block;
+  border: 1px solid;
+  border-radius: .5em;
+  padding: .5em .1em;
+  margin: .5em;
+}
 nav ul {
   margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
 }
 
 /* main "products" styles */
