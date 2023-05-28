@@ -37,3 +37,11 @@ function interpolate(){
     const newString = `This string uses both "double-quotes" and 'single-quotes'`;
     document.getElementById("string-interpolate").innerText = `Hello ${newString} World!`;
 }
+
+//expression substitution
+function calcPrice(){
+    const apple = 0.99;
+    const orange = 1.99;
+    const TAX = 0.07;
+    document.getElementById("expr-sub").innerText = `Total: ${((apple + orange) + (apple + orange) * TAX).toFixed(2)}`;
+}
