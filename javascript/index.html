@@ -6,6 +6,7 @@
     <script src="innerHTML.js"></script>
     <script src="objects.js"></script>
     <script src="stringMethods.js"></script>
+    <script src="arrayTesting.js"></script>
 </head>
 
 <body style="padding: 1em;">
@@ -67,7 +68,21 @@
     <button type="button" id="string-interpolate" onclick="interpolate()">Interpolate something into Hello</button>
     <br>
     <button type="button" id="expr-sub" onclick="calcPrice()">Buy Apple ($0.99) and Orange ($1.99) with 7% sales tax</button>
+
+    <hr>
+
+    <h2>Testing JS Arrays</h2>
+    <p>myArr</p>
+    <ul>
+        <li>Apple</li>
+        <li>Orange</li>
+        <li>Banana</li>
+        <li>Mango</li>
+        <li>Grape</li>
+    </ul>
+    <button type="button" id="arr-index0" onclick="getElem(0, 'arr-index0')">Get element from myArr index 0</button>
     <br>
+    <button type="button" id="arr-index4" onclick="getElem(4, 'arr-index4')">Get element from myArr index 4</button>
 
     <hr>
 </body>
