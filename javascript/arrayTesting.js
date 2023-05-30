@@ -14,3 +14,16 @@ function getFullArr(){
 function getElem(i, id) {
     document.getElementById(`${id}`).innerText = myArr[i];
 }
+
+//function to create HTML string displaying array and its contents
+function showArrHTML(id){
+    text = '<ul>';
+
+    for(i = 0; i < myArr.length; i++){
+        text+= `<li>${myArr[i]}</li>`;
+    }
+
+    text+= '</ul>';
+
+    document.getElementById(`${id}`).innerHTML = text;
+}
