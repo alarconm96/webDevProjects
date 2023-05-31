@@ -5,51 +5,89 @@
     <title>Marco Homepage</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header>
-        <h1>Marco A.</h1>
-        <p>
-            email@email.com || 
-            +1 123-456-7890 || 
-            <a href="https://linkedin.com">https://linkedin.com</a>
-        </p>
-        <p>Recent college graduate looking for entry position in front-end development, back-end development, or IT consulting</p>
-    </header>
+    
+    <!-- body grid -->
+    <div id="grid">
 
-    <h2>Relevant Skills</h2>
-    <table>
-        <tr>
-            <th scope="col">Skill</th>
-            <th scope="col">Years</th>
-        </tr>
-        <tr>
-            <td>Java</td>
-            <td>3 years</td>
-        </tr>
-        <tr>
-            <td>SQL</td>
-            <td>2 years</td>
-        </tr>
-        <tr>
-            <td>HTML & CSS</td>
-            <td>1 year</td>
-        </tr>
-        <tr>
-            <td>JavaScript</td>
-            <td>&lt;1 year</td>
-        </tr>
-        <tr>
-            <td>Python</td>
-            <td>1 year</td>
-        </tr>
-    </table>
+        <!-- sidebar with contact info and bio -->
+        <div id="sidebar">
+            <h1>Marco A.</h1>
+            <p>email@email.com</p>
+            <p>+1 123-456-7890</p>
+            <p><a href="https://linkedin.com">https://linkedin.com</a></p>
+            <p>Recent college graduate looking for entry position in front-end development, back-end development, or IT consulting</p>
+        </div>
 
-    <h2>Education</h2>
-    <p>
-        Attended Northern Virginia Community College from Fall 2015 to Winter 2019 and graduated with an Associate's in Inofmration Technology. Made <em>Dean's List</em> multiple times and finished with a 3.50/4.0 cumulative GPA.
-    </p>
-    <p>
-        Transferred from NOVA to George Mason University and attended from January 2020 to May 2022, graduating <em>cum laude</em> with a Bachelor's in Information Technology and a 3.66/4.0 cumulative GPA.
-    </p>
+        <!-- body grid-item with landing and more details -->
+        <!-- also acts as flexbox for child elements -->
+        <div id="body">
+            
+            <!-- landing flex-item for design showcase and first section of resume -->
+            <div id="landing">
+                <h2>Software Developer</h2>
+                <ul id="landing-ul">
+                    <li>
+                        Recent graduate offering a strong academic background in IT (software development &
+                        database technology)
+                    </li>
+                    <li>
+                        Exceptional communication skills, especially in a client environment
+                    </li>
+                    <li>
+                        Proficient in both independent and collaborative settings
+                    </li>
+                    <li>
+                        Proven ability to multitask and manage multiple projects with tight deadlines
+                    </li>
+                </ul>
+            </div>
+
+            <div id="education">
+                <h2>Education</h2>
+                <p>George Mason University, Fairfax, VA</p>
+                <p>Graduated May 2022</p>
+                <p>BS Information Technology - GPA: 3.66/4.0</p>
+            </div>
+            
+            <div id="skills">
+                <h2>Relevant Skills</h2>
+                <table>
+                    <tr>
+                        <th scope="col">Skill</th>
+                        <th scope="col">Years</th>
+                    </tr>
+                    <tr>
+                        <td>Java</td>
+                        <td>3 years</td>
+                    </tr>
+                    <tr>
+                        <td>SQL</td>
+                        <td>2 years</td>
+                    </tr>
+                    <tr>
+                        <td>HTML & CSS</td>
+                        <td>1 year</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>&lt;1 year</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div id="projects">
+                <h2>Projects</h2>
+                <dl>
+                    <dt>GMU Senior Capstone - Manassas Park Police Department (MPPD) Scheduling System Overhaul</dt>
+                    <dd>
+                        Fall 2021 - Spring 2022<br>
+                        Worked with 4 other peers as IT consultants to help MPPD
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

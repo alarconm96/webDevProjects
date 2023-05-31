@@ -1,6 +1,4 @@
-header {
-    text-align: center;
-}
+/* specific element styles */
 td, th { 
     border: 1px solid #CCC; 
 }
@@ -12,4 +10,53 @@ caption {
 }
 h1 {
     text-align: center;
+}
+
+
+/* div styles */
+div > div {
+    outline: 2px solid red;
+}
+
+
+/* flex styles */
+#body > div {
+    padding: 2em;
+}
+
+#landing {
+    height: 100vh;
+}
+
+#landing-ul {
+    list-style: none;
+}
+
+#sidebar {
+    text-align: center;
+}
+
+
+/* grid styles */
+#grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#sidebar {
+    display: flexbox;
+    flex-direction: column;
+    position: fixed;
+    height: 100%;
+    width: calc(100%/4);
+    grid-row: 1/-1;
+    grid-column: span 1;
+}
+
+#body {
+    display: flexbox;
+    flex-direction: column;
+    grid-row: 1/-1;
+    grid-column: 2/-1;
 }
